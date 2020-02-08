@@ -26,6 +26,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<cloudHubDeployment>
+					<username>Mule03AnindyaGhosh</username>
+					<pawwrod>Anindya123</pawwrod>
+					<environment>Sandbox</environment>
+					<worker>1</worker>
+					<workerType>Micro</workerType>
+					<applicationName>helloworldwithoutraml-v1</applicationName>
+					<muleVersion>4.2.2</muleVersion>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
