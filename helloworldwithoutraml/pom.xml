@@ -28,7 +28,7 @@
 				<configuration>
 				<cloudHubDeployment>
 					<username>Mule03AnindyaGhosh</username>
-					<pawwrod>Anindya123</pawwrod>
+					<password>Anindya123</password>
 					<environment>Sandbox</environment>
 					<worker>1</worker>
 					<workerType>Micro</workerType>
