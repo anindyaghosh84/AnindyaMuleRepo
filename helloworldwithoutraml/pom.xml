@@ -35,6 +35,7 @@
 					<applicationName>helloworldwithoutraml-v1</applicationName>
 					<muleVersion>4.2.2</muleVersion>
 					<objectStoreV2>true</objectStoreV2>
+					<deploymentTimeout>3000000</deploymentTimeout>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
