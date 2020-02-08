@@ -34,7 +34,7 @@
 					<workerType>Micro</workerType>
 					<applicationName>helloworldwithoutraml-v1</applicationName>
 					<muleVersion>4.2.2</muleVersion>
-					<objectStore>V2</objectStore>
+					<objectStoreV2>true</objectStoreV2>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
