@@ -9,8 +9,7 @@ http://www.mulesoft.org/schema/mule/api-gateway http://www.mulesoft.org/schema/m
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="0c02d84b-24a1-49b2-8e44-f923e3b7a2b8" >
 		<http:listener-connection host="${http.host}" port="${http.port}" />
 	</http:listener-config>
-	<api-gateway:autodiscovery apiId="${api.id}" doc:name="API Autodiscovery" doc:id="630116d7-acba-4505-8fc6-e266d7972d32" flowRef="helloworldwithoutramlFlow" />
-	<configuration-properties doc:name="Configuration properties" doc:id="27eff837-a52f-4a8b-b712-7325633e836b" file="properties\${env}.properties" />
+	<configuration-properties doc:name="Configuration properties" doc:id="27eff837-a52f-4a8b-b712-7325633e836b" file="properties\dev.properties" />
 	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="2360f911-c364-4e33-b2fb-15c3529438d9" >
 		<http:default-headers >
 			<http:default-header key="client_id" value="p('client_id')" />
